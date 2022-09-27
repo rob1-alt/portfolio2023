@@ -1,4 +1,6 @@
 .container {
+  background-image: url(../src/img/bg.png);
+  background-size: cover;
   padding: 0 2rem;
 }
 
