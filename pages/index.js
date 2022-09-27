@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1 className={styles.h1}>
         Creative boy, who aims to undertake and bring a solution for tomorrow 
         </h1>
 
@@ -21,19 +21,19 @@ export default function Home() {
         <div className={styles.grid}>
           
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href=""
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Example 1 project</h2>
+            <p>Discover</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href=""
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Example 2 project</h2>
+            <p>Discover</p>
           </a>
         </div>
       </main>
