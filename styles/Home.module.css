@@ -1,7 +1,7 @@
 .navbar{
   position: fixed;
-  margin-top: -840px;
-  background: radial-gradient(100% 36880.47% at 0% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0.984375) 0.01%, rgba(255, 255, 255, 0) 46.87%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  top: 0px;
+  background: radial-gradient(100% 36880.47% at 0% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0.984375) 0.01%, rgba(255, 255, 255, 0) 46.87%);
   width: 100%;
 }
 
@@ -106,8 +106,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color:purple;
 }
 
 .card h2 {

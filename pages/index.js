@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from './header'
+import Image from 'next/image'
+
 
 export default function Home() {
   return (
@@ -12,6 +14,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Image>
+          
+        </Image>
         <Header/>
         <h1 className={styles.h1}>
         Creative boy, who aims to undertake and bring a solution for tomorrow 
