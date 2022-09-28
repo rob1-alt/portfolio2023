@@ -25,7 +25,7 @@ export default function Home() {
             href=""
             className={styles.card}
           >
-            <h2>Example 1 project</h2>
+            <h2>Corse matin</h2>
             <p>Discover</p>
           </a>
 
