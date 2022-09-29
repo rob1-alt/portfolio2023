@@ -8,11 +8,18 @@
 }
 
 .menuNav{
+  float: right;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
+
+.name{
+  float: left;
+}
+
+
 
 .container {
   background-image: url(../src/img/bg.png);
@@ -22,7 +29,6 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,9 +54,16 @@
   color: #000000;
 }
 
-.workButton{
+.limpide:hover {
+  color: #0BE3E1;
+}
+
+.hetic:hover{
+  color: #27E89F;
+}
+
+.work{
   font-family: 'Poppins';
-  align-items: left;
   width: 1000px;
   font-size: 1em;
   font-weight: 600;
@@ -59,6 +72,7 @@
   height: 40px;
   border-radius: 5px;
   background: #000;
+  
 }
 
 .footer {
