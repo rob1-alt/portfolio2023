@@ -11,22 +11,18 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
-
-
-
 
 .container {
   background-image: url(../src/img/bg.png);
   background-size: cover;
-  padding: 0 2rem;
+  padding: 0.2rem;
 }
 
 .main {
   min-height: 100vh;
   padding: 4rem 0;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,6 +34,31 @@
   max-width: 1000px;
   font-size: 64px;
   font-weight: 600;
+  margin: 0;
+}
+
+.job{
+  text-align: left;
+  width: 1000px;
+  color: #777777;
+  font-size: 1.4em;
+}
+
+.job a {
+  color: #000000;
+}
+
+.workButton{
+  font-family: 'Poppins';
+  align-items: left;
+  width: 1000px;
+  font-size: 1em;
+  font-weight: 600;
+  color: #FFFFFF;
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  background: #000;
 }
 
 .footer {
@@ -130,27 +151,11 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
+
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }

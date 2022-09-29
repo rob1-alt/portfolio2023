@@ -12,19 +12,20 @@ export default function Home() {
         <meta name="description" content="Creative boy, who aims to undertake and bring a solution for tomorrow " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header/>
 
       <main className={styles.main}>
-        <Image>
-          
-        </Image>
-        <Header/>
         <h1 className={styles.h1}>
-        Creative boy, who aims to undertake and bring a solution for tomorrow 
+          Creative boy, who aims to undertake and bring a solution for tomorrow 
         </h1>
+
+            <p className={styles.job}>Project Manager at <a href="limpide.fr">Limpide</a>, Student at <a href='hetic.net'>HETIC</a></p>
+              <button className={styles.workButton}>View Work</button>
+        
 
         
 
-        <div className={styles.grid}>
+      {/*   <div className={styles.grid}>
           
           <a
             href=""
@@ -41,7 +42,7 @@ export default function Home() {
             <h2>Example 2 project</h2>
             <p>Discover</p>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>
