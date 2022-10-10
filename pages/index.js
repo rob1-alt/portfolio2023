@@ -10,7 +10,10 @@ export default function Home() {
       <Head>
         <title>Robin Pautigny</title>
         <meta name="description" content="Creative boy, who aims to undertake and bring a solution for tomorrow " />
+        <meta property="og:image" content="../src/img"/>
+
         <link rel="icon" href="/favicon.ico" />
+        
       </Head>
       <Header/>
 
