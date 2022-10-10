@@ -20,12 +20,6 @@ export default function Home() {
         </h1>
 
             <p className={styles.job}>Project Manager at <a className={styles.limpide}href="https://limpide.fr">Limpide</a>, Student at <a className={styles.hetic} href='https://hetic.net'>HETIC</a></p>
-            <button
-              type="button"
-              className={styles.work}
-            >
-              View Work
-            </button>
         
 
         
