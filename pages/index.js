@@ -22,7 +22,7 @@ export default function Home() {
           Creative boy, who aims to undertake and bring a solution for tomorrow 
         </h1>
 
-            <p className={styles.job}>Project Manager at <a className={styles.limpide}href="https://limpide.fr">Limpide</a>, Student at <a className={styles.hetic} href='https://hetic.net'>HETIC</a></p>
+            <p className={styles.job}>Work for <a className={styles.kluster} href='kluster'>Kluster</a>, Project Manager at <a className={styles.limpide}href="https://limpide.fr">Limpide</a> and also student at <a className={styles.hetic} href='https://hetic.net'>HETIC</a></p>
         
 
         
