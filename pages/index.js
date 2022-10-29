@@ -23,31 +23,25 @@ export default function Home() {
         </h1>
 
             <p className={styles.job}>Work for <a className={styles.kluster} href='kluster'>Kluster</a>, Project Manager at <a className={styles.limpide}href="https://limpide.fr">Limpide</a> and also student at <a className={styles.hetic} href='https://hetic.net'>HETIC</a></p>
-        
-
-        
-
-      {/*   <div className={styles.grid}>
-          
+      <div className={styles.grid}>
           <a
             href=""
-            className={styles.card}
+            className={`${styles.card} ${styles.card1}`}
           >
             <h2>Corse matin</h2>
-            <p>Discover</p>
           </a>
 
           <a
-            href=""
-            className={styles.card}
+            target="_blank" href="https://www.myflexoffice.fr/"  rel="noopener noreferrer"
+            className={`${styles.card} ${styles.card2}` }
           >
-            <h2>Example 2 project</h2>
-            <p>Discover</p>
+            <h2>Myflexoffice</h2>
           </a>
-        </div> */}
+        </div> 
       </main>
 
       <footer className={styles.footer}>
+        <p>made with ❤️ by Robin Pautigny</p>
       </footer>
     </div>
   )

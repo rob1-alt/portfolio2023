@@ -3,7 +3,9 @@
   left: 50%; /* on positionne l'élément à la moitié de l'écran */
   margin-left: -516px;
   top: 40px;
-  background: radial-gradient(100% 36880.47% at 0% 0%, #fed3d3 0%, rgba(255, 255, 255, 0.984375) 0.01%, rgba(255, 255, 255, 0) 46.87%);
+  background: radial-gradient(100% 36880.47% at 0% 0%, #fed3d3 0%, rgba(255, 255, 255, 0.984375) 0.01%, 
+  rgba(255, 255, 255, 0) 46.87%);
+  backdrop-filter: blur(10px);
   width: 1032px;
   font-weight: 600;
   font-size: 1.4em;
@@ -35,6 +37,7 @@
 }
 
 .main {
+  margin-top: 200px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -129,15 +132,6 @@
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
 .grid {
   display: flex;
   align-items: center;
@@ -152,29 +146,28 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
   width: 500px;
+  height: 610px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color:purple;
+.card h2{
+  margin-top: 31.4rem;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.card1{
+  background-image: url(../src/img/corseMatin.png);
+  background-size: cover;
+  color: #fafafa;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
 
+.card2{
+  background-image: url(../src/img/mfo.png);
+  background-size: cover;
+  color: #7392FE;
+}
 
 
 @media (max-width: 600px) {
@@ -184,5 +177,10 @@
   }
   .h1{
     font-size: 1em;
+  }
+  .container{
+    background-image: url(../src/img/bg.png);
+    background-size:cover;
+    width: 100vh;
   }
 }
