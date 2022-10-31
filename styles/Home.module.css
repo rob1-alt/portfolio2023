@@ -22,18 +22,23 @@
   justify-content: flex-end;
 }
 
+.menuItems{
+  color: #0070f3;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
 
 .name{
   float: left;
   margin-left: 20px;
 }
 
-
-
 .container {
   background-image: url(../src/img/bg.png);
   background-size: cover;
-  padding: 0.2rem;
+  padding: 5em;
 }
 
 .main {
@@ -142,12 +147,13 @@
 
 .card {
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
   width: 500px;
   height: 610px;
+  border-radius: 30px;
 }
 
 .card h2{
@@ -167,6 +173,33 @@
   background-image: url(../src/img/mfo.png);
   background-size: cover;
   color: #7392FE;
+}
+
+.card3{
+  background-image: url(../src/img/Bump.png);
+  background-size: cover;
+  color: #fafafa;
+}
+
+/*Content of the projetct*/
+
+.time p{
+    color: #777777;
+    margin-left: -500px;
+    margin-top: -300px;
+}
+.line{
+    margin-left: 0px;
+    margin-top: -270px;
+    width: 1000px;
+    height: 1px;
+    background-color: #777777;
+}
+
+.visuelTop{
+    background-image: url('../src/img/corseMatin.png');
+    background-size: cover;
+    height: 100vh;
 }
 
 

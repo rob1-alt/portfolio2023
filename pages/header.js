@@ -9,6 +9,20 @@ export default function header(){
             <div className={styles.name}>
                 <p>Robin Pautigny</p>
             </div>   
+            {/* <div className={(styles.menuItems)}>
+                <ul>
+                    <li>
+                        Work
+                    </li>
+                    <li>
+                        About
+                    </li>
+                    <li>
+                        Contaxt
+                    </li>
+                </ul>
+            </div> */}
+        
                     
         </div>
     )
