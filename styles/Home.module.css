@@ -94,6 +94,7 @@
 }
 
 .footer {
+  margin-top: 100px;
   display: flex;
   flex: 1;
   padding: 2rem 0;
@@ -143,6 +144,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1065px;
+  margin-top: 150px;
 }
 
 .card {
@@ -156,7 +158,12 @@
   border-radius: 30px;
 }
 
+.card:hover{
+  filter: blur(2px);
+}
+
 .card h2{
+  z-index: 2;
   margin-top: 31.4rem;
   font-size: 2.5rem;
   font-weight: 600;

@@ -26,10 +26,10 @@ export default function Home() {
             <p className={styles.job}>Work on <a className={styles.kluster} href='kluster'>Kluster</a>, Project Manager at <a className={styles.limpide}href="https://limpide.fr">Limpide</a> and also student at <a className={styles.hetic} href='https://hetic.net'>HETIC</a></p>
           {/* Cards avec les projets */}
             <div className={styles.grid}>
-                <Link href="/corseMatin" >
+                <Link href="/" >
                   <a className={`${styles.card} ${styles.card1}`}><h2>Corse Matin</h2></a>
                 </Link>
-                <Link href="/mfoProject" >
+                <Link href="/" >
                   <a className={`${styles.card} ${styles.card2}`}><h2>Myflexoffice</h2></a>
               </Link>
             </div> 
