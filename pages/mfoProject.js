@@ -15,9 +15,9 @@ return (
     </Head> 
     <Header/>
     
-    <main className={styles.main}>
-        <h1>Projet Myflexoffice</h1>
-        <h2>Le début du projet</h2>
+    <main className={styles.main1}>
+        <h1 className={styles.title}>Projet Myflexoffice</h1>
+        <h2 className={styles.subtitle}>Le début du projet</h2>
     </main>
 
     <footer className={styles.footer}>
