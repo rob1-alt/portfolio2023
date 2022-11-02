@@ -23,6 +23,7 @@
   font-size: 1.4em;
   border-radius: 10px;
   box-shadow: 0px 4px 21px 6px #00000024;
+  z-index: 1;
 }
 
 .menuNav{
@@ -191,13 +192,18 @@
   padding: 1rem;
   text-align: left;
   color: inherit;
+  z-index: 0;
   text-decoration: none;
   width: 500px;
   height: 610px;
   border-radius: 30px;
   box-shadow: 0px 4px 64px 0px #00000040;
 
+}
 
+.card:hover{
+  transform: scale(1.01);
+  
 }
 
 .card h2{ 
@@ -221,7 +227,7 @@
 .card3{
   background-image: url(../src/img/Bump.png);
   background-size: cover;
-  color: #fafafa;
+  color: #FE303A;
 }
 
 /*Content of the projetct*/
