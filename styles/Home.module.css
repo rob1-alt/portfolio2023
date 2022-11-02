@@ -264,4 +264,11 @@
     background-size:cover;
     width: 100vh;
   }
+
+  .card3{
+    background-image: url('../src/img/bumpResponsive.png');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
