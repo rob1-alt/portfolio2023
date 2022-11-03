@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from './header'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
 
 
@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="description" content="Creative boy, who aims to undertake and bring a solution for tomorrow " />
         <meta property="og:image" content="../src/img"/>
 
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../src/img/logofade.png" />
         
       </Head>
       <Header/>
