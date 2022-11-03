@@ -270,5 +270,26 @@
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 90vw;
+  }
+  .card2{
+    background-image: url('../src/img/mfoResponsive.png');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90vw;
+  }
+  .card1{
+    background-image: url('../src/img/mfoResponsive.png');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90vw;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
   }
 }
