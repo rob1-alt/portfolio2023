@@ -32,16 +32,12 @@ export default function Home() {
                 <Link href="/" >
                   <a className={`${styles.card} ${styles.card2}`}><h2>Myflexoffice</h2></a>
               </Link>
-            </div> 
-            <div className={styles.grid}>
                 <Link href="/" >
                   <a className={`${styles.card} ${styles.card3}`}><h2>Bump</h2></a>
                 </Link>
                 <Link href="/" >
                   <a className={`${styles.card} ${styles.card2}`}><h2>Myflexoffice</h2></a>
               </Link>
-            </div> 
-            <div className={styles.grid}>
                 <Link href="/" >
                   <a className={`${styles.card} ${styles.card1}`}><h2>Corse Matin</h2></a>
                 </Link>
