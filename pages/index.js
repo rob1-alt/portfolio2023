@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from './header'
+import { gsap } from "gsap";
+
 // import Image from 'next/image'
 import Link from 'next/link'
 
@@ -14,7 +16,8 @@ export default function Home() {
         <meta name="description" content="Creative boy, who aims to undertake and bring a solution for tomorrow " />
         <meta property="og:image" content="../src/img"/>
 
-        <link rel="icon" href="../src/img/logofade.png" />
+        <link rel="icon" href="../
+        " />
         
       </Head>
       <Header/>
@@ -25,6 +28,7 @@ export default function Home() {
         </h1>
             <p className={styles.job}>Work on <a className={styles.kluster} href='kluster'>Kluster</a>, Project Manager at <a className={styles.limpide}href="https://limpide.fr">Limpide</a> and also student at <a className={styles.hetic} href='https://hetic.net'>HETIC</a></p>
           {/* Cards avec les projets */}
+          <div className={styles.snakes}></div>
             <div className={styles.grid}>
                 <Link href="/" >
                   <a className={`${styles.card} ${styles.card1}`}><h2>Corse Matin</h2></a>
