@@ -25,7 +25,7 @@ export default function Home() {
         <h1 className={styles.h1}>
           Creative boy, who aims to undertake and bring a solution for tomorrow. 
         </h1>
-            <p className={styles.job}>Work on <a className={styles.kluster} href='kluster'>Kluster</a>, Project Manager at <a className={styles.limpide}href="https://limpide.fr">Limpide</a> and also student at <a className={styles.hetic} href='https://hetic.net'>HETIC</a></p>
+            <p className={styles.job}>Work on <a className={styles.kluster} href='kluster'>Kluster</a>, formerly Project Manager at <a className={styles.limpide}href="https://limpide.fr">Limpide</a> and also student at <a className={styles.hetic} href='https://hetic.net'>HETIC.</a></p>
           {/* Cards avec les projets */}
           <div className={styles.snakes}></div>
             <div className={styles.grid}>
@@ -39,19 +39,13 @@ export default function Home() {
                   <a className={`${styles.card} ${styles.card3}`}><h2>Bump</h2></a>
                 </Link>
                 <Link href="/" >
-                  <a className={`${styles.card} ${styles.card2}`}><h2>Myflexoffice</h2></a>
-              </Link>
-                <Link href="/" >
-                  <a className={`${styles.card} ${styles.card1}`}><h2>Corse Matin</h2></a>
-                </Link>
-                <Link href="/" >
-                  <a className={`${styles.card} ${styles.card2}`}><h2>Myflexoffice</h2></a>
+                  <a className={`${styles.card} ${styles.card4}`}><h2>Dismoi</h2></a>
               </Link>
             </div> 
       </main>
 
       <footer className={styles.footer}>
-        <p> made with ❤️  by Robin Pautigny </p>
+        <p> made with ❤️  by Robin Pautigny 🎉 </p>
       </footer>
     </div>
   )

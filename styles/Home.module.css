@@ -224,6 +224,13 @@
   color: #FE303A;
 }
 
+.card4{
+  background-image: url(../src/img/dismoi.png);
+  background-size: cover;
+  background-color: rgb(251, 251, 251);
+  color: #0F2E59;
+}
+
 /*Content of the projetct*/
 
 .time p{
