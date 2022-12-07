@@ -22,7 +22,7 @@ export default function header(){
                             <a href='#'>About</a>
                         </li>
                     </Link>
-                    <Link href="/">
+                    <Link className={styles.contact}href="/">
                         <li>
                             <a href='#'>Contact</a>
                         </li>
