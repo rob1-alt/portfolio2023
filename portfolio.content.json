@@ -1,23 +1,36 @@
 {
-    "title": "FrontAid CMS with Next.js",
+    "title": "Projects",
     "index": {
       "title": "Index Page",
-      "content": "<p>Some <strong>index</strong> content...</p>"
+      "content": "<p>Some <strong>index</strong> content...</p>",
+      "image" : "../"
     },
     "pages": [
       {
-        "title": "Foo Page",
-        "path": "/foo",
-        "content": "<p>Foo content...</p><h2>Heading</h2><p>Some other content...</p>"
+        "title": "Corse Matin",
+        "path": "corse-matin",
+        "content": "<p>Foo content...</p><h2>Heading</h2><p>Some other content...</p>",
+        "className" : "card1",
+        "background" : "../img/corse-matin.jpg"
       },
       {
-        "title": "Bar Page",
-        "path": "/bar",
+        "title": "Myflexoffice",
+        "path": "mfo",
         "content": "<p><strong>Bar</strong> content...</p>"
       },
       {
-        "title": "Baz Page",
-        "path": "/baz",
+        "title": "Bump",
+        "path": "bump",
+        "content": "<p><strong>Baz</strong> content...</p>"
+      },
+      {
+        "title": "Dismoi",
+        "path": "dismoi",
+        "content": "<p><strong>Baz</strong> content...</p>"
+      },
+      {
+        "title": "Flocs",
+        "path": "flocs",
         "content": "<p><strong>Baz</strong> content...</p>"
       }
     ]

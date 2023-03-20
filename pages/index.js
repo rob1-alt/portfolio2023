@@ -2,6 +2,9 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from './header'
 import { gsap } from "gsap";
+import content from '../portfolio.content.json';
+
+
 
 // import Image from 'next/image'
 import Link from 'next/link'
@@ -15,6 +18,7 @@ export default function Home() {
         <title>Robin Pautigny</title>
         <meta name="description" content="Creative boy, who aims to undertake and bring a solution for tomorrow " />
         <meta property="og:image" content="../src/img"/>
+        
 
         <link rel="icon" href="/favicon.ico" />
         
@@ -29,27 +33,21 @@ export default function Home() {
           {/* Cards avec les projets */}
           <div className={styles.snakes}></div>
             <div className={styles.grid}>
-                <Link href="/" >
-                  <a className={`${styles.card} ${styles.card1}`}><h2>Corse Matin</h2></a>
+              {content.pages.map((data, index) => {
+                return(
+                  <Link href={`/project/${data.path}`} >
+                  <a className={`${styles.card} ${styles.card1}`}><h2>{data.title}</h2></a>
                 </Link>
-                <Link href="/" >
-                  <a className={`${styles.card} ${styles.card2}`}><h2>Myflexoffice</h2></a>
-              </Link>
-                <Link href="/" >
-                  <a className={`${styles.card} ${styles.card3}`}><h2>Bump</h2></a>
-                </Link>
-                <Link href="/" >
-                  <a className={`${styles.card} ${styles.card4}`}><h2>Dismoi</h2></a>
-              </Link>
-              <Link href="/" >
-                  <a className={`${styles.card} ${styles.card5}`}><h2>Flocs</h2></a>
-              </Link>
+                )}
+              )}
+
             </div> 
       </main>
 
       <footer className={styles.footer}>
         <p> made with ❤️  by Robin Pautigny 🎉 </p>
       </footer>
+      <script data-host="https://digianalytics.fr" data-dnt="false" src="https://digianalytics.fr/js/script.js" id="ZwSg9rf6GA" async defer></script>
     </div>
   )
 }
